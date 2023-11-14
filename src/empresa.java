@@ -48,7 +48,7 @@ public class empresa {
 		int ano = Integer.parseInt(meseano.substring(3));
 		System.out.println("Name: " + func.getNome());
 		System.out.println("Departamento" + func.getDepartamento().getNome());
-		System.out.println("Income for " + meseano +  ", R$" + String.format("%.2f", func.renda(ano, mes)));
+		System.out.println("Income for " + meseano +  ": R$" + String.format("%.2f", func.renda(ano, mes)));
 		
 	}
 }
